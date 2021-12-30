@@ -1,0 +1,13 @@
+{
+    "name": "Hello, World!",
+    "description": "Base Leve Extenson",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "hello.html",
+        "default_icon": "hello_extensions.png"
+    }
+}
